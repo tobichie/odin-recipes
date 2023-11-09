@@ -1,0 +1,53 @@
+* {
+    font-family: fantasy;
+}
+
+
+.menu-container{
+    display: flex;
+}
+
+.menu-container .menu {
+    height: auto !important;
+    background-color: peachpuff;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 10px;
+    border-color: #4f2907;
+    border-width: 100px;
+}
+
+.menu-container .menu div {
+    margin: auto;
+    border: 10px #000000;
+    padding: 5px;
+}
+
+.menu-container .menu button {
+    margin: 4px auto;
+    border: 10px #000000;
+    padding: 5px;
+    background-color: #ecba8e;
+    border-radius: 10px;
+    
+}
+
+.date:hover, .signup:hover, .login:hover {
+    background-color:#d3a67c ;
+    border-radius: 10px;
+}
+
+
+
+.container div {
+    display: flex;
+}
+.container div{
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(249, 195, 115);
+    border-radius: 3px;
+    border: 1px black solid;
+    flex: 1;
+}

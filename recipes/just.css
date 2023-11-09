@@ -1,0 +1,41 @@
+.h1 {
+    text-align: center;
+    display: block;
+}
+.recipes {
+    background: lightsalmon;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+
+.stats {
+    margin: 10px;
+    display: block;
+    background-color: lightsalmon;
+    border-radius: 8px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flexbox;
+}
+
+.time, .giovanni, .cost {
+    font-size: large;
+    display: inline-block;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+    
+}
+.img {
+    display: flex;
+    margin: auto;
+}
+.bs {
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    color: black;
+    background-color: chocolate;
+}
